@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100&family=Grape+Nuts&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anek Odia', sans-serif;
+}
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+input,button{
+    outline: none;
+    border: none;
+}
+
+.logo img{
+    width: 95px;
+}
+
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 22px;
+    display: flex;
+    font-size: 0.77rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+    color: #fff;
+}
+
+nav ul li a:hover{
+    background-color: #ff531e;
+    box-shadow: 5px 10px 30px rgba(231, 75, 13, 0.897);
+
+}
+
+/* MAIN */
+.main{
+    width: 100%;
+    height: 768px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(images/header-bg.jpg);
+    box-sizing: border-box;
+    
+}
+.main-heading{
+    width: 500px;
+    position: absolute;
+    left: 17%;
+    top: 50%;
+    transform: translate(-17%,-50%);
+}
+.main-heading h1 span{
+    color: #ff531e;
+}
+.main-heading h1{
+    font-size: 58px;
+    margin: 0px;
+    letter-spacing: 3px;
+}
+
+.main-heading p{
+    color: #6c6e78;
+
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff531e;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s ease-in;
+}
+.btn:hover{
+    background-color: #04c4ff;
+    box-shadow: 5px 10px 30px rgba(47, 179, 240, 0.842);
+}
+
+/* ABOUT */
+
+.about{
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5% 0 5%;
+    position: relative;
+    box-sizing: border-box;
+}
+.about-img{
+    width: 50%;
+}
+
+.about-img img{
+    width: 500px;
+}
+.about-text{
+    width: 45%;
+    text-align: right;
+}
+.about-text h4{
+    color: #8a9ea7;
+    letter-spacing: 3px;
+}
+.about-text h1{
+    font-size: 2.2rem;
+    font-weight: 1000;
+    color:#101010
+}
+.about-text p{
+    color: thistle;
+    font-size: 1.2rem;
+}
+.about-btn{
+    float: right;
+}
+
+/* SERVICES */
+
+.feature{
+    width: 100%;
+    height: 140vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.f-heading{
+    text-align: center;
+    margin: 20px 0px;
+}
+.f-heading h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+}
+.f-heading h4{
+    letter-spacing: 2px;
+    color: #8a9ea7;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-box{
+    width: 350px;
+    padding: 10px;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.f-box:hover{
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+footer h4{
+    letter-spacing: 2px;
+    color: #fff;
+}
+footer p{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #e4e4e4;
+    margin: 0auto;
+    font-size: 1.2rem;
+}
